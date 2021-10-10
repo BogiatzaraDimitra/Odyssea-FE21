@@ -9,6 +9,7 @@ header {
     color: #480ca8;
 }
 
+
 #info {
     background-image: url("website-3374825_1920.jpg");
     height: 500px;
@@ -28,5 +29,32 @@ header {
 
 #info h3 {
     color: #dbc4f2;
+
+}
+
+.about {
+    display: flex;
+    margin: auto 3rem;
+    width: 100%;
+    height: fit-content;
+    justify-items: space-between;
+    
+}
+
+#education, #experience, #other, #skills {
+    margin: 0 3rem;
+    width: 30rem;
+}
+
+#education h1, #experience h1, #other h1, #skills h1{
+    display: block;
+    color: #450c75;
+    font-size: xx-large;
+    text-align: center;
+}
+
+#education h3, #experience h3, #other h3, #skills h3 {
+    display: block;
+    color: #867f8a;
 
 }
