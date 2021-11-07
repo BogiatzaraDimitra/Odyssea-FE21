@@ -83,13 +83,13 @@ container {
     line-height: 2rem;
 }
 
-#history {
+#history, #reading {
     padding: 0 7rem;
     display: block;
     position: relative;
 }
 
-#history h1 {
+#history h1, #reading h1 {
     padding-left: 6rem;
 }
 
@@ -165,4 +165,29 @@ container {
     background-color: #dacdff;
     border-radius: 2rem;
     padding: 1.5rem;
+}
+
+#books {
+    display: flex;
+    margin: 6rem 0 3rem;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.picture {
+    display: flex;
+    height: 310px;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.picture img {
+    box-shadow: 0 52px 74px rgba(0,21,64,.138559);
+}
+
+.title {
+    display: block;
+    margin-top: 6rem;
+    
 }
