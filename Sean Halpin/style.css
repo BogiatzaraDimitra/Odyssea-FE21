@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -11,6 +11,10 @@ header {
     padding: 0;
     width: 100%;
     z-index: 1;
+}
+
+nav {
+    width: fit-content;
 }
 
 nav ul {
@@ -41,9 +45,9 @@ nav a::after{
     background: none repeat scroll #ffc4ff;
     content: "";
     display: block;
-    height: 2px;
+    height: 3px;
     position: absolute;
-    bottom: -1rem;
+    bottom: -2px;
     transform: translate3d(0,5px,0);
     transition: all .2s cubic-bezier(.175,.885,.32,1.275);
 }
@@ -65,6 +69,11 @@ container {
     align-items: center;
     justify-content: center;
     width: 100%;
+    height: auto;
+}
+
+#photo {
+    
 }
 
 #photo img {
